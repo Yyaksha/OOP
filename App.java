@@ -35,6 +35,22 @@ public class App {
             b = c;
         }
 
+        System.out.println();
+        a = 0;
+        b = 1;
+        c =2;
+        int d = 0;
+        for(int i = 1; i<=8 ; i++){
+            System.out.print(a + " ");
+            d = a + b + c;
+            a = b;
+            b = c;
+            c = d;
+
+        
+        }
+
+
 
 
 
